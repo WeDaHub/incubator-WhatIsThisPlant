@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class="container">
+  <!--
+  <view class="userinfo">
+    <block wx:if="{{!hasUserInfo}}">
+      <button 
+        wx:if="{{canIUseGetUserProfile}}" 
+        bindtap="getUserProfile"
+        class="userinfo-avatar"
+        style="background-image: url({{avatarUrl}})"
+        size="default"
+      ></button>
+    </block>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-block-avatar" src="cloud://cloud1-3goy9506d3638d40.636c-cloud1-3goy9506d3638d40-1305884492/img-46fbd76c-262e-5b2f-6663-07b4a9e85e35.jpg" mode="cover"></image>
+    </block>
+    <view class="userinfo-nickname-wrapper">
+      <button class="userinfo-nickname" bindtap="onGetOpenid">点击获取 openid</button>
+    </view> 
+  </view> -->
+
+  <view class="button-sp-area">
+    <button type="primary" class="camera-btn" bindtap="doUpload">
+      <icon class="iconfont icon-camera"></icon>
+      <text class="font-w"> 拍照识花草</text>
+    </button>
+  </view>
+  
+</view>

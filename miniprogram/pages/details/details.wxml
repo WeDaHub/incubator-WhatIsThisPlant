@@ -1,0 +1,24 @@
+<!--pages/details/details.wxml-->
+<view class="container">
+
+<view class="upload-image">
+  <image class="upload-img" src="{{imagePath}}" mode="widthFix"></image>
+</view>
+
+<view class="description">
+  <view class="name"><text>{{plantName}}</text></view>
+  <view class="info"><text >{{plantDescription}}</text></view>
+</view>
+
+<view class="description">
+  <view class="name"><text>{{poem.title}}</text></view>
+  <view class="author"><text>{{poem.author}}</text></view>
+  <view class="poem"><text class="line" wx:for="{{poem.sentences}}" wx:key="*this" >{{item}}</text></view>
+</view>
+
+<view class="button-sp-area">
+    <button type="primary" class="share-btn" open-type='share'>
+      <text class="font-w">分享给好友</text>
+    </button>
+  </view>
+</view>

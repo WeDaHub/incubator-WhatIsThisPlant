@@ -1,0 +1,62 @@
+/* pages/result/result.wxss */
+
+/*@import "../../style/guide.wxss";*/
+
+.black {
+  color: black;
+}
+.upload-image{
+  display: flex;
+  width:100%;
+}
+.upload-img{
+  width:100%;
+}
+
+.swiper{
+  width: 90%;
+  margin-top:5%;
+  margin-bottom: 5%;
+  padding-right:5%;
+  padding-left: 5%;
+}
+swiper{
+  height:300rpx;
+  box-shadow:0rpx 2rpx 10rpx 10rpx #c8c3c3;
+}
+
+.res-image{
+  width:50%;
+}
+.description{
+  width:50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+  text-align: center;
+}
+.swiper-item{
+  display: flex;
+  height: 100%;
+}
+.more-info{
+  font-size: 30rpx;
+  color: gray;
+}
+
+.button-sp-area{
+  width: 60%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.font-w{
+  font-weight: 300;
+  font-size: 35rpx;
+}
+.share-btn{
+  border-radius: 30px;
+  vertical-align: middle;
+  text-align: center;
+}

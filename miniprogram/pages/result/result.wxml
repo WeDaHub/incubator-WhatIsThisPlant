@@ -1,0 +1,30 @@
+<!--pages/result/result.wxml-->
+<view class="container">
+
+<view class="upload-image">
+  <image class="upload-img" src="{{imagePath}}" mode="widthFix"></image>
+</view>
+
+<view class="swiper" bindtap="openDetails">
+  <swiper indicator-dots="true" bindchange="onSlideChangeEnd">
+    <block wx:for="{{plant}}" wx:key="name">
+      <swiper-item>
+        <view class="swiper-item">
+          <block wx:if="{{item.baike ==='{}'}}"><image class="res-image" src="../../images/default.jpg" mode="widthFix"></image></block>
+          <block wx:else><image class="res-image" src="{{item.baike_info.image_url}}" mode="widthFix"></image></block>
+          <view class="description">
+            <view><text>{{item.name}}</text></view>
+            <view><text class="more-info">点击查看更多</text></view>
+          </view>
+        </view>
+      </swiper-item>
+      </block>
+  </swiper>
+</view>
+
+  <!--<view class="button-sp-area">
+    <button type="primary" class="share-btn" open-type='share'>
+      <text class="font-w">分享给好友</text>
+    </button>
+  </view>-->
+</view>

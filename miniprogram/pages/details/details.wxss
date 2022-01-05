@@ -1,0 +1,50 @@
+/* pages/details/details.wxss */
+
+@import "../../style/guide.wxss";
+
+.description{
+  padding: 5%;
+}
+.name{
+  margin-bottom: 2.5%;
+  align-items: center;
+  justify-content: center;  
+  text-align: center;
+}
+.info{
+  font-size: 30rpx;
+  color: gray;
+  line-height: 45rpx;
+}
+.button-sp-area{
+  width: 60%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.font-w{
+  font-weight: 300;
+  font-size: 35rpx;
+}
+.share-btn{
+  border-radius: 30px;
+  vertical-align: middle;
+  text-align: center;
+}
+.poem{
+  align-items: center;
+  justify-content: center;  
+  text-align: center;
+}
+.line{
+  display: block;
+  line-height: 50rpx;
+}
+.author{
+  margin-bottom: 2.5%;
+  font-size: 30rpx;
+  color: gray;
+  align-items: center;
+  justify-content: center;  
+  text-align: center;
+}
