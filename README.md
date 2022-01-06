@@ -4,7 +4,7 @@
 ## 队伍名称
 有福气的团队
 ## 队伍成员
-[Qingfu Wen](https://github.com/wenqf11)
+[Qingfu Wen](https://github.com/wenqf11), [yezifeiafei](https://github.com/yezifeiafei), [zuoshunyi](https://github.com/zuoshunyi)
 
 ## 作品介绍
 一个自动识别植物名称的小程序，通过拍照或者从相册上传植物图片，可以识别植物名称。点击识别结果后，有可能（取决于接口是否支持）可以看到植物的详细介绍和匹配的古诗一首。并且支持将详情页面转发给微信好友和微信群。
